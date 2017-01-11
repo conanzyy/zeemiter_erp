@@ -1,0 +1,39 @@
+#filter-menu .mod-choose-input .ui-inputhtml{_text-overflow:ellipsis;_background: #f5f5f5; overflow:hidden;}
+html,body {height:100%; font-family: "Microsoft YaHei",tahoma,arial,"Hiragino Sans GB","\5b8b\4f53",sans-serif; background:#f0f0f0;}
+thead{word-break: keep-all;white-space:nowrap;}
+
+.mod-report{position: relative;*zoom: 1;overflow:auto;height:100%;}
+.mod-report .search-wrap{position: fixed;left: 0;top: 0;z-index: 10;width: 100%;_position:absolute;_left:expression(eval(document.documentElement.scrollLeft));_top:expression(eval(document.documentElement.scrollTop));background:none;}
+.mod-report .search-wrap .s-inner{padding:  10px 15px 10px 15px;background:#f0f0f0;}
+.mod-report .search-wrap strong.tit{font-size:14px;line-height: 30px; font-weight:normal;}
+.mod-report .search-wrap .txt{display: inline-block;*display: inline;*zoom: 1;font-size: 14px;line-height: 30px;}
+
+#filter-menu .mod-choose-input{position: relative;*zoom: 1;}
+#filter-menu .mod-choose-input .ui-input{padding-right: 25px;width:226px; font-family:"宋体";}
+#filter-menu .ui-datepicker-input{width:105px; font-family:"宋体";}
+
+.no-query{ background:#FFF url(img/no_query.png) 100px 60px no-repeat; height:calc(100% - 65px);;margin:0px 15px 0px 15px;top:50px; position: absolute;width:calc(100% - 30px)}
+
+/* 表格 */
+.ui-print {margin-top:50px;height:calc(100% - 50px)}
+.ui-print .grid-wrap { background: #fff; margin:0px 15px 15px 15px; padding:15px 15px 0px 15px;  box-shadow: 0 1px 3px rgba(0,0,0,0.2); clear: both;height:calc(100% - 30px);position: relative;}
+.ui-print .ui-jqgrid .ui-jqgrid-view th,
+.ui-print .ui-jqgrid .ui-jqgrid-view td,
+.ui-print .ui-jqgrid .ui-jqgrid-view div {
+    border-color: #999;
+}
+.ui-print .ui-jqgrid .ui-jqgrid-hdiv,
+.ui-print .ui-jqgrid .ui-jqgrid-htable th {
+	background: #fff;
+}
+.ui-print .ui-jqgrid .ui-jqgrid-pager {
+	background: #fff;
+}
+.ui-print .ui-widget-content {border:none;}
+.ui-print .ui-jqgrid .ui-jqgrid-btable {*margin-top: -1px;}
+.ui-print .ui-jqgrid {border:1px solid #999;}
+.ui-print .ui-jqgrid .ui-jqgrid-sdiv {border-top: 1px solid #666;}
+.ui-print .ui-jqgrid .ui-jqgrid-sdiv td {border-top:none;}
+.ui-print .ui-jqgrid .frozen-div {background:#fff !important;}
+.ui-print .ui-jqgrid .frozen-div .ui-jqgrid-resize-ltr {margin: 0 -2px 0 0px;}
+.ui-print .ui-jqgrid .frozen-bdiv table {background:#fff}
